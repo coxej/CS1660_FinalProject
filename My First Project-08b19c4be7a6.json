@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "imperial-sphere-273422",
+  "private_key_id": "08b19c4be7a60c67d18333f753e644859e416b04",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDcBrGMBAT65BuG\nCL5MiUAaZzK5GrIln30RNzqaIc1l0APUJpWvSz4AjpQfQ0OZqTZFkzuQwx7ojdRZ\nhA3Ktn1VL5atrBJMJXLFNJzr4YctvBc/FktXVfIMzTonRMEFKgLuHXBzsoOl4lvV\nzDn8/FjQVTJEqJi43eszfm/iGLwhydlcDWao6lGR35k6YBRe1Ti5tqHdaL4M+usa\no1VcsIoxAheX7Qtfo8UOkU1dc++STeK4ADXwP8bp5sZxX6CkmK+rWKAZi+5z514f\nCSUcBUQi/5Kgcu90/tCz5iwHD0l5WCkiU4I0OuB+GUIMUrWWp1WUxJtXkEOlnWYr\nuCTMZD71AgMBAAECggEACzcKIL1ptZIf9waGEKekTVQ6SSYbs4A8Iz8B7S5Q5mIi\nd9NZqNw4dlXOJgPLM89ktUoqbJgNgMQN8VwiSdVgcRGiaArPyfLUtUmXwAw4VDP0\nqWINCBAY7N8fGjZOcmFwUcvNWhBc1n1BuhWVVRhVvJTDIa3ITw/8t5y3vjoNiNlF\nUXpxjiKBVgeprBrtCRvsRlcQ2I1vWfWHWDHivU3XP4gJ5TtP6JjuoA2RSZnGQVPK\ncBm9X1Hj+EjDoZh9XoWnRI0bconkDWkK/N3GyCOddKyqJKrSDq2vVb8VtA7zsjQP\n01+DRFIFlW9UUiYRORTVUwe7SOvgGjDggf5C60zxMQKBgQD54IpIdJdj5Y7YX5cu\nylaMx9rYv3FjaJAkUDQP/ax6wdwGkXuZmx4Yk72Z/wC29sPgu+rU0NcolmQ9fWLR\nK9mjRG2wRKMKdt1XeZ/dd9fGv/5jM9wmnPFxr4AR5TNJ04caDK2QppcHwl/PKpYk\nduwymORxOwKCtR38nF2eftaxSQKBgQDhauaMtNYrIcJPrqKlIIyDYnKqh9D3mW3b\nY3Uje9zlS2opmrdm0NWWVVZqDfClTo4zzlGUFJ8Lq9o2UA41llNkXRRliD+iewUq\n3P1nhy3dnk+iqHtyZkTHBDahYeoeSje/dy3OntKQKb2usn/hscsfUNwd9ABcHubk\nm5g5AvWMTQKBgQC6H7bhIXdiwasVIJ7MC4tMcdFhgbhEA67aXaNqBdpj1eK+Qb9/\nOzu/ssyX2In/vu9IhrD0tFqPsPYZlzvz8mW6Z04M7hNDyCY28jFSFeJz+K7T1d02\nJdDyjXcn3UHGy/jmPmtKQ8xbyzzyYxZTMwHc7mW6sem80ovzjcVuOaxRgQKBgQCD\nkc23WuWWj0HHGHs+Pl1FYnTjLBrAKgGBB/AbIfSwsO/qEK/zhvjjojOp+zD2i39c\npZPgBpk+SrQ290sT5AYQknORP5FE2OEPP6V4g+I1dG2u1wAWqbKDJuZsE6Z+v3sC\neiF2dCUamAJqsS0LIqcYRC32HbEIE9FYpaiXvi5sEQKBgAN7andlXCV2lSy5xiqu\nY1HqmIXwNQDELWjtjZKsPaCczv5lZ09BhpjTar8r1oftQ1e2ov7Ri3T1nr1Gskg3\n3W2sUG7IV0Rc/QNUsQyrDIQQaDuwWKU97CRPW6KokcgXmXE49w8x8P68DS6+vbnA\ndSoGNbGJNB3/ffNyZGvJjoa/\n-----END PRIVATE KEY-----\n",
+  "client_email": "cs1660ejc71@imperial-sphere-273422.iam.gserviceaccount.com",
+  "client_id": "115433429193252963467",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/cs1660ejc71%40imperial-sphere-273422.iam.gserviceaccount.com"
+}

@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+{% block body %}
+<link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+<div style='text-align: right;'>
+	<a href="{{ url_for('search') }}">Go Back To Search</a>
+</div>
+<div style='margin-top: 5%;'>
+	You searched for the term: <b><a>{{ term }}</a></b>
+	<br>
+	Your search was executed in <b><a>{{ time }}</a></b> ms
+</div>
+<div style='margin-top: 5%;'>
+	<table>
+		<tr>
+			<th>Doc ID</th>
+			<th>Doc Folder</th>
+			<th>Doc Name</th>
+			<th>Frequencies</th>
+		</tr>
+		{% for row in rows %}
+		<tr>
+			<td>{{row.car}}</td>
+			<td>{{row.year}}</td>
+			<td>{{row}}</td>
+			<td>{{row}}</td>
+		</tr>
+		{% endfor %}
+	</table>
+</div>
+{% endblock %}

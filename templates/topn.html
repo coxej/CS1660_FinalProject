@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+{% block body %}
+<div style='text-align: center; margin-top: 10%;'>
+	Enter Your N Value
+	<br><br><br>
+	<form name="myForm" action="{{ url_for('indicies') }}" onsubmit="return validateForm()" method="POST">
+		<input type='text' name='term' placeholder='Type Your N ...'>
+		<br><br><br>
+		<input type='submit' value='Search'>
+	</form>
+</div>
+<script>
+function validateForm() {
+  var x = document.forms["myForm"]["term"].value;
+  if (x == "") {
+    alert("Name must be filled out");
+    return false;
+  }
+}
+</script>
+{% endblock %}

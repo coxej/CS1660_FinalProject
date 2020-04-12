@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+{% block body %}
+<div style='text-align: center; margin-top: 10%;'>
+	Engine was loaded & Inverted Indices were constructed successfully!
+	<br><br><br><br><br>
+	Please Select Action
+	<br><br><br>
+	<form action="{{ url_for('search') }}">
+    	<input type="submit" style='margin-top: 5%;' value="Search for Term">
+  	</form>
+  	<form action="{{ url_for('topn') }}">
+    	<input type="submit" style='margin-top: 5%;' value="Top-N">
+  	</form>
+</div>
+{% endblock %}

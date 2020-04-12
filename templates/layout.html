@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html style='background-color: skyblue;'>
+	<title>EJ's Search Engine</title>
+	<body>
+		<p style='font-weight: bold; text-decoration: underline;'><a href="{{ url_for('hello') }}" style='color: black;'>EJ's Search Engine</a></p>
+		{% with flashes = get_flashed_messages() %}
+		    {% if flashes %}
+		     	<ul>
+		     		{% for message in flashes %}
+		       			<li>{{ message }}
+		    		{% endfor %}
+		      	</ul>
+		    {% endif %}
+  		{% endwith %}
+		<div id="body">
+		{% block body %}{% endblock %}
+		</div>
+	</body>
+</html>
