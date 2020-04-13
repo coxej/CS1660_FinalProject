@@ -1,6 +1,8 @@
 # CS1660_FinalProject
 Edward Cox Final Project for CS 1660
 
+Accomplished:
+
 1. Dockerized Python/Flask GUI
 
 2. Docker to GCP cluster communication
