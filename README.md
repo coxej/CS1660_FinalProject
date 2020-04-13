@@ -17,5 +17,7 @@ Walk through of Inverted Index code: https://www.youtube.com/watch?v=YdzzxmufUwk
 Walk through of Dockerfile: https://www.youtube.com/watch?v=c6IzggBMUr4
 
 Docker commands:
+  
   docker build --tag flask-docker-demo-app .
+  
   docker run --rm --name flask-docker-demo-app -p 5000:5000 flask-docker-demo-app
